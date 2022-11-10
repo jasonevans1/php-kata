@@ -9,6 +9,7 @@ tasks:
     command: |
       export DDEV_NONINTERACTIVE=true
       cd ${GITPOD_REPO_ROOT}
+      chmod +x .gitpod/start_repo.sh
       .gitpod/start_repo.sh
 
 vscode:
