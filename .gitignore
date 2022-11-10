@@ -1,3 +1,7 @@
 composer.lock
 composer.phar
 /vendor/
+bin/php-parse
+bin/phpspec
+bin/phpunit
+bin/yaml-lint
